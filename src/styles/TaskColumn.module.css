@@ -1,0 +1,84 @@
+/* src/components/TaskColumn.module.css */
+.column {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  min-height: 100px;
+  width: 300px;
+  background-color: #f4f5f7;
+}
+
+.header {
+  text-align: center;
+  padding: 8px;
+  margin: 0;
+}
+
+.task {
+  padding: 12px;
+  margin: 0 0 8px 0;
+  background-color: #ffffff;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+.taskContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.taskDetails {
+  flex-grow: 1;
+}
+
+.taskTitle {
+  margin: 0;
+  font-size: 16px;
+}
+
+.taskDescription {
+  margin: 4px 0;
+  color: #555;
+}
+
+.priorityLow {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+}
+
+.priorityMedium {
+  background-color: #ff9800;
+  color: white;
+  padding: 8px;
+}
+
+.priorityUrgent {
+  background-color: #f44336;
+  color: white;
+  padding: 8px;
+}
+
+.deadline {
+  font-size: 12px;
+  color: #888;
+  display: flex;
+  align-items: center;
+}
+
+.timerIcon {
+  display: flex;
+  margin-right: 4px; /* Space between icon and text */
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}

@@ -1,0 +1,26 @@
+/* src/components/TaskManager.module.css */
+.container {
+    display: flex;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mainContent {
+    width: 85%;
+  }
+  
+  .button {
+    margin: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+  }
+  
